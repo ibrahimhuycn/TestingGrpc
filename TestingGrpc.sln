@@ -3,9 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30011.22
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GrpcServer", "GrpcServer\GrpcServer.csproj", "{75946278-F058-4A47-BD9B-93A74CD9C7A2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GrpcServer", "GrpcServer\GrpcServer.csproj", "{75946278-F058-4A47-BD9B-93A74CD9C7A2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GrpcClient", "GrpcClient\GrpcClient.csproj", "{CADC5657-ED21-4BA3-AD49-2A5A238CFDCA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GrpcClient", "GrpcClient\GrpcClient.csproj", "{CADC5657-ED21-4BA3-AD49-2A5A238CFDCA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "gRPC.Client.WinformsUI", "gRPC.Client.WinformsUI\gRPC.Client.WinformsUI.csproj", "{E2E289F9-453B-4D2F-8056-2C772CF79B26}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{CADC5657-ED21-4BA3-AD49-2A5A238CFDCA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CADC5657-ED21-4BA3-AD49-2A5A238CFDCA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CADC5657-ED21-4BA3-AD49-2A5A238CFDCA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E2E289F9-453B-4D2F-8056-2C772CF79B26}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E2E289F9-453B-4D2F-8056-2C772CF79B26}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E2E289F9-453B-4D2F-8056-2C772CF79B26}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E2E289F9-453B-4D2F-8056-2C772CF79B26}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

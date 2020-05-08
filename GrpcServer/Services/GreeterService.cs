@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using Grpc.Core;
+using GrpcClient;
 using Microsoft.Extensions.Logging;
 
 namespace GrpcServer
@@ -22,5 +23,7 @@ namespace GrpcServer
                 Message = "Hello " + request.Name
             });
         }
+
+
     }
 }
